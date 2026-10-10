@@ -53,7 +53,7 @@ The scheme text is already in `data/schemes/`. To refresh it from myScheme, run 
 
 ## Results
 
-See `eval/results.json` and the **Under the hood** tab. Summary in the report (`docs/`).
+See `eval/results.json` and the **Under the hood** tab. The report (`docs/report/*.docx`, `.pdf`) and slides (`.pptx`) are in `docs/report/`; `build_report.js` and `build_deck.js` regenerate them from the results.
 
 ## Limits
 
