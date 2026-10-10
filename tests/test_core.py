@@ -116,7 +116,7 @@ def test_rich_text_documents_are_converted():
 def run():
     tools.reset(0, BY_ID["ramesh"]["profile"])
     tools.RUN["citations"] = {"[PM-KISAN · Benefits]", "[KCC · Eligibility]", "[PM-SYM · Eligibility]"}
-    tools.RUN["called"], tools.RUN["seen"] = [], set()
+    tools.RUN["called"], tools.RUN["seen"], tools.RUN["domains"], tools.RUN["question"] = [], set(), set(), ""
     return tools.RUN
 
 
@@ -158,8 +158,22 @@ def test_guardrail_checks_the_cash_total(run):
     assert agent.check_answer("Your total is ₹6,000 a year [PM-KISAN · Benefits].")[0]
 
 
+def test_guardrail_blocks_invented_web_addresses(run):
+    assert not agent.check_answer("Apply on mangalmart.com [PM-KISAN · Benefits].")[0]
+    run["domains"] = {"pmkisan.gov.in"}
+    assert agent.check_answer("Apply on pmkisan.gov.in or myscheme.gov.in [PM-KISAN · Benefits].")[0]
+
+
+def test_document_questions_need_the_document_tool(run):
+    run["question"] = "What documents do I need?"
+    ok, why = agent.check_answer("Bring Aadhaar [PM-KISAN · Benefits].")
+    assert not ok and "document_checklist" in why
+    run["called"].append("document_checklist")
+    assert agent.check_answer("Bring Aadhaar [PM-KISAN · Benefits].")[0]
+
+
 def test_tool_names_are_removed_from_answers(run):
-    assert "[benefit_estimate]" not in agent.normalize("Total ₹6,000 [benefit_estimate]")
+    assert agent.normalize("Total ₹6,000 [benefit_estimate]. Aadhaar [Document checklist].") == "Total ₹6,000. Aadhaar."
 
 
 def test_check_eligibility_tool_output(run):

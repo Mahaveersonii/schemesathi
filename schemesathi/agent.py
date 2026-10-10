@@ -12,7 +12,7 @@ import time
 
 from crewai import Agent, Crew, Process, Task
 
-from . import log, tools
+from . import log, rag, tools
 from .llm import make_llm, model_chain
 from .rules import BY_SLUG, SCHEMES, summary
 
@@ -36,7 +36,8 @@ def normalize(text: str) -> str:
     """Models write tags as 【PM‑KISAN · Benefits】 (CJK brackets, non-breaking hyphens): make them plain."""
     text = text.replace("【", "[").replace("】", "]")
     text = re.sub("[\u2010\u2011\u2012\u2013]", "-", text)
-    return re.sub(r"\s?\[(?:check_eligibility|search_schemes|scheme_section|document_checklist|benefit_estimate)\]", "", text)
+    tool_tag = r"\s?\[(?:check|search|scheme|document|benefit)[ _](?:eligibility|schemes|section|checklist|estimate)\]"
+    return re.sub(tool_tag, "", text, flags=re.I)
 
 
 def check_answer(text: str) -> tuple[bool, str]:
@@ -56,6 +57,16 @@ def check_answer(text: str) -> tuple[bool, str]:
     if outside:
         return False, (f"{outside} are not schemes SchemeSathi has official text for. Do not describe them; "
                        "talk only about schemes the tools returned, and point to myScheme.gov.in for others.")
+    links = sorted({d.lower() for d in tools.DOMAIN.findall(text)} - tools.RUN["domains"]
+                   - {"myscheme.gov.in", "www.myscheme.gov.in"})
+    if links:
+        return False, (f"These web addresses are not in the official text you retrieved: {links}. Remove them; "
+                       "give only addresses a tool returned, or myscheme.gov.in.")
+    need = {"Documents Required": ("document_checklist", "scheme_section", "search_schemes"),
+            "Application Process": ("scheme_section", "search_schemes")}.get(rag.intent(tools.RUN.get("question", "")))
+    if need and not set(need) & set(tools.RUN["called"]):
+        return False, (f"The question asks about {rag.intent(tools.RUN['question']).lower()}. Call {need[0]} "
+                       "(or scheme_section) first and answer from the official text, not from memory.")
     total = summary(tools.RUN["results"])["yearly_cash"]
     for amount in re.findall(r"total[^.\n]{0,80}?₹\s?([\d,]+)", text, flags=re.I):
         if int(amount.replace(",", "") or 0) not in (total, 0) and "benefit_estimate" in tools.RUN["called"]:
@@ -106,7 +117,8 @@ def build(question: str, profile: dict, language: str, llm) -> Crew:
             "1. If the question is about what this person can get, call check_eligibility first. Its verdicts are "
             "final: 'eligible', 'likely' (needs one more thing confirmed) or 'not_eligible'. Never change one.\n"
             "2. For facts (amounts, documents, steps, rules) call search_schemes or scheme_section. For a document "
-            "list across schemes call document_checklist. For money questions call benefit_estimate.\n"
+            "list across schemes call document_checklist. For money questions call benefit_estimate. For how and where to "
+            "apply, call scheme_section with 'Application Process'. Never invent offices, websites or documents.\n"
             "3. Talk only about schemes the tools return. If nothing fits, say so honestly and suggest myscheme.gov.in.\n"
             "4. Put a citation tag after every fact, copied exactly from a tool result, e.g. [PM-KISAN · Benefits]. "
             "Never write a tag no tool returned.\n"
@@ -133,7 +145,7 @@ def _strip_bad_citations(text: str) -> str:
 def ask(question: str, profile: dict | None = None, language: str = "en", emit=print) -> dict:
     t0 = time.time()
     run_id = log.start(question, language)
-    tools.reset(run_id, profile or {})
+    tools.reset(run_id, profile or {}, question)
     tools.RUN["retries"] = 0
     answer, used, last_error, verified = None, None, None, True
     tools.RUN["last_raw"] = None

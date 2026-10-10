@@ -9,12 +9,15 @@ from crewai.tools import tool
 from . import log, rag
 from .rules import BY_SLUG, SCHEMES, evaluate, summary
 
-RUN = {"run_id": None, "profile": {}, "results": [], "citations": set(), "called": [], "seen": set()}
+RUN = {"run_id": None, "profile": {}, "results": [], "citations": set(), "called": [], "seen": set(),
+       "domains": set(), "question": ""}
+DOMAIN = re.compile(r"\b(?:[a-z0-9-]+\.)+(?:gov\.in|nic\.in|co\.in|org\.in|com|in|org|net)\b", re.I)
 _SHORT = {s.short.lower(): s.slug for s in SCHEMES}
 
 
-def reset(run_id, profile):
-    RUN.update(run_id=run_id, profile=profile or {}, results=evaluate(profile or {}), citations=set(), called=[], seen=set())
+def reset(run_id, profile, question=""):
+    RUN.update(run_id=run_id, profile=profile or {}, results=evaluate(profile or {}), citations=set(), called=[],
+               seen=set(), domains=set(), question=question)
 
 
 def _slug(name: str) -> str | None:
@@ -30,6 +33,7 @@ def _logged(fn):
         try:
             out = fn(*args, **kwargs)
             RUN["seen"].update(re.findall(r"\b[A-Z][A-Z\-]{2,}\b", out))   # terms the official text used
+            RUN["domains"].update(d.lower() for d in DOMAIN.findall(out))   # web addresses it mentions
             log.event(RUN["run_id"], "tool_call", fn.__name__, json.dumps([args, kwargs])[:300], (time.time() - t0) * 1000)
             return out
         except Exception as exc:  # noqa: BLE001
@@ -92,7 +96,9 @@ def document_checklist(schemes: str) -> str:
     """One combined, de-duplicated list of documents for several schemes (comma-separated short names)."""
     slugs = [x for x in (_slug(n) for n in schemes.split(",")) if x]
     RUN["citations"].update(rag.tag(BY_SLUG[x].short, "Documents Required") for x in slugs)
-    return json.dumps(rag.documents(slugs)[:30], ensure_ascii=False)
+    docs = [{"document": d["document"], "for": d["for"]} for d in rag.documents(slugs)[:30]]
+    cites = [rag.tag(BY_SLUG[x].short, "Documents Required") for x in slugs]
+    return json.dumps({"cite_with": cites, "documents": docs}, ensure_ascii=False)
 
 
 @tool("benefit_estimate")
