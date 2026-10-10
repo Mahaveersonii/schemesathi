@@ -1,0 +1,577 @@
+{
+ "scheme": {
+  "_id": "629092822ad78f71fb7bc3a9",
+  "en": {
+   "applicationProcess": [
+    {
+     "mode": "Online",
+     "process": [
+      {
+       "children": [
+        {
+         "children": [
+          {
+           "text": "One can download UMANG App or visit website "
+          },
+          {
+           "children": [
+            {
+             "text": "https://web.umang.gov.in/web_new/home"
+            }
+           ],
+           "link": "https://web.umang.gov.in/web_new/home",
+           "type": "link"
+          },
+          {
+           "text": " "
+          }
+         ],
+         "type": "list_item"
+        },
+        {
+         "children": [
+          {
+           "text": "The citizen can login using mobile number and OTP."
+          }
+         ],
+         "type": "list_item"
+        },
+        {
+         "children": [
+          {
+           "text": "Once logged In, citizen can search for NSAP."
+          }
+         ],
+         "type": "list_item"
+        },
+        {
+         "children": [
+          {
+           "text": "Click on “Apply Online”"
+          }
+         ],
+         "type": "list_item"
+        },
+        {
+         "children": [
+          {
+           "text": "Fill the basic details, choose the mode of payment of pension, upload photo and click on “Submit”."
+          }
+         ],
+         "type": "list_item"
+        }
+       ],
+       "type": "ul_list"
+      },
+      {
+       "children": [
+        {
+         "text": ""
+        }
+       ],
+       "type": "paragraph"
+      }
+     ],
+     "process_md": "\n- One can download UMANG App or visit website [https://web.umang.gov.in/web_new/home](https://web.umang.gov.in/web_new/home) - The citizen can login using mobile number and OTP.\n- Once logged In, citizen can search for NSAP.\n- Click on “Apply Online”\n- Fill the basic details, choose the mode of payment of pension, upload photo and click on “Submit”.\n\n<br>\n\n",
+     "url": "https://web.umang.gov.in/web_new/home "
+    },
+    {
+     "mode": "Offline",
+     "process": [
+      {
+       "children": [
+        {
+         "children": [
+          {
+           "text": "Individuals can submit completely filled applications to the Gram Panchayat / Block Office in the rural area and the Municipality / Municipal Council in the urban area, as per eligibility."
+          }
+         ],
+         "type": "list_item"
+        },
+        {
+         "children": [
+          {
+           "text": "A Verification Officer or Verification Team under an authorized officer verifies the applications with reference to facts related to eligibility"
+          }
+         ],
+         "type": "list_item"
+        },
+        {
+         "children": [
+          {
+           "text": "The Verification Officer make the necessary recommendation for sanction or rejection with reasons."
+          }
+         ],
+         "type": "list_item"
+        },
+        {
+         "children": [
+          {
+           "text": "The list of applicants with the recommendations of the Verifying Authority is discussed in the Gram Sabha in rural areas or Ward Sabha / Area Sabha as designated by the State Government in urban areas and thereafter in the Gram Panchayats and Municipalities."
+          }
+         ],
+         "type": "list_item"
+        },
+        {
+         "children": [
+          {
+           "text": "If the time limits are not adhered to by Gram Sabha / Ward Sabhas, Gram Panchayats / Municipalities the Verification Officer directly submits his recommendations to the Sanctioning Authority under intimation to the Gram Panchayat / Municipality."
+          }
+         ],
+         "type": "list_item"
+        },
+        {
+         "children": [
+          {
+           "text": "After receipt of applications which are verified and recommended by the Gram Sabha / Ward Committee / Area Sabha, the Sanctioning Authority convey approval to the applicant in the form of a Sanction Order with a copy to Gram Panchayat / Municipality concerned."
+          }
+         ],
+         "type": "list_item"
+        },
+        {
+         "children": [
+          {
+           "text": "The Sanctioning Authority issues Sanction Order under his seal"
+          }
+         ],
+         "type": "list_item"
+        },
+        {
+         "children": [
+          {
+           "text": "Every beneficiary who has been sanctioned pension under schemes of NSAP are issued a Pension Passbook. The Passbook contain details of the Sanction Order, particulars of the pensioner and disbursement details"
+          }
+         ],
+         "type": "list_item"
+        },
+        {
+         "children": [
+          {
+           "text": "The list of beneficiaries to whom sanctions are issued is displayed at the Gram Panchayat / Ward / Municipal Office and updated every three months. "
+          }
+         ],
+         "type": "list_item"
+        },
+        {
+         "children": [
+          {
+           "text": "The Pension amount is directly paid to the beneficiaries through the Direct Benefit Transfer (DBT) process to their post office or bank account."
+          }
+         ],
+         "type": "list_item"
+        }
+       ],
+       "type": "ul_list"
+      },
+      {
+       "children": [
+        {
+         "text": ""
+        }
+       ],
+       "type": "paragraph"
+      }
+     ],
+     "process_md": "\n- Individuals can submit completely filled applications to the Gram Panchayat / Block Office in the rural area and the Municipality / Municipal Council in the urban area, as per eligibility.\n- A Verification Officer or Verification Team under an authorized officer verifies the applications with reference to facts related to eligibility\n- The Verification Officer make the necessary recommendation for sanction or rejection with reasons.\n- The list of applicants with the recommendations of the Verifying Authority is discussed in the Gram Sabha in rural areas or Ward Sabha / Area Sabha as designated by the State Government in urban areas and thereafter in the Gram Panchayats and Municipalities.\n- If the time limits are not adhered to by Gram Sabha / Ward Sabhas, Gram Panchayats / Municipalities the Verification Officer directly submits his recommendations to the Sanctioning Authority under intimation to the Gram Panchayat / Municipality.\n- After receipt of applications which are verified and recommended by the Gram Sabha / Ward Committee / Area Sabha, the Sanctioning Authority convey approval to the applicant in the form of a Sanction Order with a copy to Gram Panchayat / Municipality concerned.\n- The Sanctioning Authority issues Sanction Order under his seal\n- Every beneficiary who has been sanctioned pension under schemes of NSAP are issued a Pension Passbook. The Passbook contain details of the Sanction Order, particulars of the pensioner and disbursement details\n- The list of beneficiaries to whom sanctions are issued is displayed at the Gram Panchayat / Ward / Municipal Office and updated every three months. \n- The Pension amount is directly paid to the beneficiaries through the Direct Benefit Transfer (DBT) process to their post office or bank account.\n\n<br>\n\n",
+     "url": ""
+    }
+   ],
+   "basicDetails": {
+    "dbtScheme": false,
+    "level": {
+     "label": "Central",
+     "value": "central"
+    },
+    "nodalDepartmentName": null,
+    "nodalMinistryName": {
+     "label": "Ministry Of Rural Development",
+     "value": 487
+    },
+    "schemeCategory": [
+     {
+      "label": "Banking,Financial Services and Insurance",
+      "subcategories": [
+       "Banking and money",
+       "Financial regulation",
+       "Investment",
+       "Personal finance",
+       "Superannuation",
+       "Court claims, debt and bankruptcy",
+       "Pension",
+       "Insurance",
+       "Loan",
+       "Annuity"
+      ],
+      "value": "628ce7f6d6d1a3bde46852d0"
+     },
+     {
+      "label": "Social welfare & Empowerment",
+      "subcategories": [
+       "Pension",
+       "Crisis/Disaster/Accident",
+       "Shelter",
+       "Rehabilitation",
+       "Loan",
+       "Insurance",
+       "Provident fund",
+       "Aids/Appliances",
+       "Micro finance",
+       "Marriage",
+       "Financial assistance",
+       "Citizen empowerment"
+      ],
+      "value": "628ce87cd6d1a3bde4685312"
+     }
+    ],
+    "schemeFor": "Individual",
+    "schemeName": "Indira Gandhi National Disability Pension Scheme",
+    "schemeOpenDate": "2009-05-01",
+    "schemeShortTitle": "IGNDPS",
+    "schemeSubCategory": [
+     {
+      "label": "Pension",
+      "value": "Pension"
+     },
+     {
+      "label": "Financial assistance",
+      "value": "Financial assistance"
+     }
+    ],
+    "schemeType": {
+     "label": "Central Sector Scheme",
+     "value": "central-sector-scheme"
+    },
+    "tags": [
+     "Differently Abled",
+     "Pension",
+     "Below Poverty Line - BPL"
+    ],
+    "targetBeneficiaries": [
+     {
+      "label": "Individual",
+      "value": "individual"
+     }
+    ]
+   },
+   "eligibilityCriteria": {
+    "eligibilityDescription": [
+     {
+      "children": [
+       {
+        "text": "The eligibility criteria for a disabled person to avail of the benefits are as follows."
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": ""
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "children": [
+         {
+          "text": "The age of the applicant should be 18 years and above."
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": "The applicant should be a resident of India."
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": "The applicant should be a physically or mentally disabled person."
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": "The applicant’s disability should be more than 80%."
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": "Dwarfs are also eligible for this scheme."
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": "The applicant should belong to the Below Poverty Line."
+         }
+        ],
+        "type": "list_item"
+       }
+      ],
+      "type": "ul_list"
+     }
+    ],
+    "eligibilityDescription_md": "The eligibility criteria for a disabled person to avail of the benefits are as follows.\n<br>\n\n\n- The age of the applicant should be 18 years and above.\n- The applicant should be a resident of India.\n- The applicant should be a physically or mentally disabled person.\n- The applicant’s disability should be more than 80%.\n- Dwarfs are also eligible for this scheme.\n- The applicant should belong to the Below Poverty Line.\n\n"
+   },
+   "schemeContent": {
+    "benefitTypes": {
+     "label": "Cash",
+     "value": "Cash"
+    },
+    "benefits": [
+     {
+      "children": [
+       {
+        "children": [
+         {
+          "text": "A pension of Rs.300/- per month is provided to Divyangjan between 18-79 years. "
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": "A pension of Rs.500/- per month will be provided to Divyangjan aged 80 years and above. "
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": ""
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "type": "ul_list"
+     }
+    ],
+    "benefits_md": "\n- A pension of Rs.300/- per month is provided to Divyangjan between 18-79 years. \n- A pension of Rs.500/- per month will be provided to Divyangjan aged 80 years and above. \n\n",
+    "briefDescription": "A non-contributory pension scheme to provide social security to Divyangjans aged 18 and above who belong to a poor family (BPL) in society.\n\n",
+    "detailedDescription": [
+     {
+      "children": [
+       {
+        "text": "Indira Gandhi National Disability Scheme was launched on February 2009 by the Ministry of Rural Development headed by the Central Government to support the disabled people in our country. This scheme introduced under National Social Assistance Program provides monthly pension to disabled people for the prosperity of their lives. Any disabled person whose age is more than 18 years, and with disability 80% or more belonging to the poverty line can apply for this scheme. "
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": ""
+       }
+      ],
+      "type": "paragraph"
+     }
+    ],
+    "detailedDescription_md": "Indira Gandhi National Disability Scheme was launched on February 2009 by the Ministry of Rural Development headed by the Central Government to support the disabled people in our country. This scheme introduced under National Social Assistance Program provides monthly pension to disabled people for the prosperity of their lives. Any disabled person whose age is more than 18 years, and with disability 80% or more belonging to the poverty line can apply for this scheme. \n<br>\n\n",
+    "exclusions_md": "",
+    "references": [
+     {
+      "title": "Scheme Guidelines",
+      "url": "https://nsap.nic.in/Guidelines/nsap_guidelines_oct2014.pdf"
+     },
+     {
+      "title": "Office Memorandum 1",
+      "url": "https://nsap.nic.in/Guidelines/dps.pdf "
+     },
+     {
+      "title": "Office Memorandum 2",
+      "url": "https://nsap.nic.in/Guidelines/english_dps.pdf "
+     },
+     {
+      "title": "Office Memorandum 3",
+      "url": "https://nsap.nic.in/circular.do?method=showguidlines# "
+     }
+    ],
+    "schemeImageUrl": "https://uttara-s3-bucket.s3.ap-south-1.amazonaws.com/schemes/igndps/igndps.svg"
+   },
+   "schemeDefinitions": []
+  },
+  "slug": "igndps"
+ },
+ "documents": {
+  "data": {
+   "_id": "629095c62ad78f71fb7bc54c",
+   "en": {
+    "documents_required": [
+     {
+      "children": [
+       {
+        "children": [
+         {
+          "text": "BPL Card"
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": "Aadhaar card"
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": "Age Proof - For age, the birth certificate or school certificate may be relied on. In their absence ration card and EPIC may be considered. If there is no valid document, any Medical Officer of any government hospital may be authorized to issue the age certificate."
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": "Disability certificate:- Disability certificate (80% and More) issued from Chief Medical Officer, Community Health Centre or Primary Health Centre will be accepted."
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": "Passport Size Photographs."
+         }
+        ],
+        "type": "list_item"
+       }
+      ],
+      "type": "ul_list"
+     },
+     {
+      "children": [
+       {
+        "text": ""
+       }
+      ],
+      "type": "paragraph"
+     }
+    ]
+   },
+   "schemeId": "629092822ad78f71fb7bc3a9"
+  },
+  "error": "{}",
+  "errorDescription": "",
+  "status": "Success",
+  "statusCode": 200
+ },
+ "faqs": {
+  "data": {
+   "_id": "629096472ad78f71fb7bc581",
+   "en": {
+    "faqs": [
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": "One can receive pension amount in Bank Account, Post Office Account, Postal Money Order or in hand cash.\n"
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": "One can receive pension amount in Bank Account, Post Office Account, Postal Money Order or in hand cash.\n\n",
+      "question": "What Are Different Modes Of Receiving Pension?"
+     },
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": "In hand cash will be disbursed by Pension Disbursement Authority of respective Sub District/Municipal Area. One can select the pension disbursement authority while filling online application form on UMANG.\n"
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": "In hand cash will be disbursed by Pension Disbursement Authority of respective Sub District/Municipal Area. One can select the pension disbursement authority while filling online application form on UMANG.\n\n",
+      "question": "Who Will Disburse In Hand Cash?"
+     },
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": "Yes, One can apply through UMANG. https://web.umang.gov.in/web_new/home \n"
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": "Yes, One can apply through UMANG. https://web.umang.gov.in/web_new/home \n\n",
+      "question": "Can I Apply Online?"
+     },
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": "The offline application process might vary slightly from state to state.\n"
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": "The offline application process might vary slightly from state to state.\n\n",
+      "question": "Is The Offline Application Process Same For All States?"
+     },
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": "One can track his/her application through https://nsap.nic.in/applicationTrack1.do?methodName=showStatus\n or \nThrough UMANG - https://web.umang.gov.in/web_new/home \n"
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": "One can track his/her application through https://nsap.nic.in/applicationTrack1.do?methodName=showStatus\n or \nThrough UMANG - https://web.umang.gov.in/web_new/home \n\n",
+      "question": "How Can I Track My Application Status?"
+     },
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": "Yes.\n"
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": "Yes.\n\n",
+      "question": "Can I Apply For Multiple Disabilities?"
+     }
+    ]
+   },
+   "schemeId": "629092822ad78f71fb7bc3a9"
+  },
+  "error": "{}",
+  "errorDescription": "",
+  "status": "Success",
+  "statusCode": 200
+ }
+}

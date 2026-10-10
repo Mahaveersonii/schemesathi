@@ -1,0 +1,35 @@
+# The 30 central government schemes SchemeSathi covers, grouped by who they help.
+# slug = the scheme's page name on https://www.myscheme.gov.in/schemes/<slug>
+schemes:
+  - {slug: pm-kisan, group: Farmers}
+  - {slug: pmkmdy, group: Farmers}
+  - {slug: kcc, group: Farmers}
+  - {slug: pmfby, group: Farmers}
+  - {slug: hmdg, group: Health and insurance}
+  - {slug: nikshay, group: Health and insurance}
+  - {slug: pmjjby, group: Health and insurance}
+  - {slug: pmsby, group: Health and insurance}
+  - {slug: pmay-u, group: Housing and household}
+  - {slug: pmay-g, group: Housing and household}
+  - {slug: pmuy, group: Housing and household}
+  - {slug: pmjdy, group: Housing and household}
+  - {slug: pmmy, group: Entrepreneurs and workers}
+  - {slug: pm-svanidhi, group: Entrepreneurs and workers}
+  - {slug: sui, group: Entrepreneurs and workers}
+  - {slug: pmegp, group: Entrepreneurs and workers}
+  - {slug: pmv, group: Entrepreneurs and workers}
+  - {slug: pm-sym, group: Entrepreneurs and workers}
+  - {slug: mgnrega, group: Entrepreneurs and workers}
+  - {slug: apy, group: Pensions}
+  - {slug: nsap-ignoaps, group: Pensions}
+  - {slug: ignwps, group: Pensions}
+  - {slug: igndps, group: Pensions}
+  - {slug: pmmvy, group: Women and children}
+  - {slug: jssk, group: Women and children}
+  - {slug: jsy1, group: Women and children}
+  - {slug: csss-cus, group: Students and youth}
+  - {slug: pm-yasasvipmsobcebcdnts, group: Students and youth}
+  - {slug: post-dis, group: Students and youth}
+  - {slug: naps, group: Students and youth}
+  - {slug: pmkvy-stt, group: Students and youth}
+  - {slug: sl, group: Students and youth}

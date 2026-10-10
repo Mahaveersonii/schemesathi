@@ -1,0 +1,25 @@
+# Retrieval test set: a question a real person might ask, and where the answer is in the official text.
+- {q: "How much money does a farmer get every year under PM Kisan?", slug: pm-kisan, section: Benefits}
+- {q: "Who cannot get PM Kisan, are income tax payers excluded?", slug: pm-kisan, section: Exclusions}
+- {q: "What is the interest rate on a Kisan Credit Card crop loan?", slug: kcc, section: Benefits}
+- {q: "What premium does a farmer pay for crop insurance in kharif season?", slug: pmfby, section: Benefits}
+- {q: "How do I apply for crop insurance?", slug: pmfby, section: Application Process}
+- {q: "Life insurance cover for 436 rupees a year", slug: pmjjby, section: Benefits}
+- {q: "Accident insurance for 20 rupees premium, what is the cover?", slug: pmsby, section: Benefits}
+- {q: "Free LPG gas connection for poor women", slug: pmuy, section: Benefits}
+- {q: "Documents needed for Ujjwala gas connection", slug: pmuy, section: Documents Required}
+- {q: "Zero balance bank account with RuPay card and overdraft", slug: pmjdy, section: Benefits}
+- {q: "Loan for street vendors without collateral", slug: pm-svanidhi, section: Benefits}
+- {q: "What documents does a street vendor need for the loan?", slug: pm-svanidhi, section: Documents Required}
+- {q: "Business loan up to 10 lakh under Shishu Kishore Tarun", slug: pmmy, section: Benefits}
+- {q: "Bank loan for SC ST or women entrepreneurs between 10 lakh and 1 crore", slug: sui, section: Benefits}
+- {q: "Toolkit incentive and training for carpenters and blacksmiths", slug: pmv, section: Benefits}
+- {q: "Pension of 3000 rupees a month for unorganised workers", slug: pm-sym, section: Benefits}
+- {q: "100 days of guaranteed wage employment in villages", slug: mgnrega, section: Benefits}
+- {q: "Which pension amounts can I choose in Atal Pension Yojana?", slug: apy, section: Benefits}
+- {q: "Old age pension amount for people above 80", slug: nsap-ignoaps, section: Benefits}
+- {q: "Pension for persons with severe disability", slug: igndps, section: Benefits}
+- {q: "Cash for pregnant women for the first child", slug: pmmvy, section: Benefits}
+- {q: "Free delivery and free medicines in government hospitals for pregnant women", slug: jssk, section: Benefits}
+- {q: "Monthly nutrition support for TB patients", slug: nikshay, section: Benefits}
+- {q: "Scholarship for OBC students after class 10 with family income under 2.5 lakh", slug: pm-yasasvipmsobcebcdnts, section: Eligibility}

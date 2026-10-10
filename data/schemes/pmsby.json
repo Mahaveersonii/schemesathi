@@ -1,0 +1,632 @@
+{
+ "scheme": {
+  "_id": "6290a249e65001fa5dfa97b0",
+  "en": {
+   "applicationProcess": [
+    {
+     "mode": "Offline",
+     "process": [
+      {
+       "children": [
+        {
+         "children": [
+          {
+           "bold": true,
+           "text": "Step 01:"
+          },
+          {
+           "text": " In order to enrol in PMSBY offline, one can visit the bank branch where one has a savings account or the candidate can visit the official site: "
+          },
+          {
+           "children": [
+            {
+             "text": "https://jansuraksha.gov.in/Forms-PMSBY.aspx"
+            }
+           ],
+           "link": "https://jansuraksha.gov.in/Forms-PMSBY.aspx",
+           "type": "link"
+          },
+          {
+           "bold": true,
+           "text": " "
+          },
+          {
+           "text": "to download the form. "
+          }
+         ],
+         "type": "paragraph"
+        }
+       ],
+       "type": "align_justify"
+      },
+      {
+       "children": [
+        {
+         "bold": true,
+         "text": "Step 02:"
+        },
+        {
+         "text": " After downloading the application form , candidate can fill in all the details and submit  them to the bank along with the  required documents."
+        }
+       ],
+       "type": "paragraph"
+      },
+      {
+       "children": [
+        {
+         "bold": true,
+         "text": "Step 03:"
+        },
+        {
+         "text": " Once it is successfully submitted , subscriber will get an Acknowledgement Slip Cum Certificate of Insurance."
+        }
+       ],
+       "type": "paragraph"
+      },
+      {
+       "children": [
+        {
+         "text": "Contact:"
+        }
+       ],
+       "type": "paragraph"
+      },
+      {
+       "children": [
+        {
+         "bold": true,
+         "text": "State wise tollfree number"
+        },
+        {
+         "text": " - "
+        },
+        {
+         "children": [
+          {
+           "text": "https://jansuraksha.gov.in/files/STATEWISETOLLFREE.pdf "
+          }
+         ],
+         "link": "https://jansuraksha.gov.in/files/STATEWISETOLLFREE.pdf",
+         "type": "link"
+        },
+        {
+         "text": ""
+        }
+       ],
+       "type": "paragraph"
+      },
+      {
+       "children": [
+        {
+         "bold": true,
+         "text": "National Toll Free Number"
+        },
+        {
+         "text": " - 1800-180-1111 / 1800-110-001"
+        }
+       ],
+       "type": "paragraph"
+      }
+     ],
+     "process_md": "**Step 01:** In order to enrol in PMSBY offline, one can visit the bank branch where one has a savings account or the candidate can visit the official site: [https://jansuraksha.gov.in/Forms-PMSBY.aspx](https://jansuraksha.gov.in/Forms-PMSBY.aspx)**** to download the form. \n**Step 02:** After downloading the application form , candidate can fill in all the details and submit  them to the bank along with the  required documents.\n**Step 03:** Once it is successfully submitted , subscriber will get an Acknowledgement Slip Cum Certificate of Insurance.\nContact:\n**State wise tollfree number** - [https://jansuraksha.gov.in/files/STATEWISETOLLFREE.pdf ](https://jansuraksha.gov.in/files/STATEWISETOLLFREE.pdf)\n**National Toll Free Number** - 1800-180-1111 / 1800-110-001\n",
+     "url": "https://jansuraksha.gov.in/Forms-PMSBY.aspx "
+    },
+    {
+     "mode": "Online",
+     "process": [
+      {
+       "children": [
+        {
+         "text": "One can also avail cover under PMSBY online using their bank's Net banking facility."
+        }
+       ],
+       "type": "paragraph"
+      }
+     ],
+     "process_md": "One can also avail cover under PMSBY online using their bank&#39;s Net banking facility.\n",
+     "url": ""
+    }
+   ],
+   "basicDetails": {
+    "dbtScheme": false,
+    "implementingAgency": "Banks",
+    "level": {
+     "label": "Central",
+     "value": "central"
+    },
+    "nodalDepartmentName": {
+     "label": "Department of Financial Service",
+     "value": 1174
+    },
+    "nodalMinistryName": {
+     "label": "Ministry Of Finance",
+     "value": 499
+    },
+    "schemeCategory": [
+     {
+      "label": "Banking,Financial Services and Insurance",
+      "value": "628ce7f6d6d1a3bde46852d0"
+     }
+    ],
+    "schemeFor": "Individual",
+    "schemeName": "Pradhan Mantri Suraksha Bima Yojana",
+    "schemeOpenDate": "2015-05-09",
+    "schemeShortTitle": "PMSBY",
+    "schemeSubCategory": [
+     {
+      "label": "Insurance",
+      "value": "Insurance"
+     }
+    ],
+    "schemeType": {
+     "label": "Central Sector Scheme",
+     "value": "central-sector-scheme"
+    },
+    "tags": [
+     "Bank Account Holders",
+     "Insurance",
+     "Accident Insurance",
+     "Death Insurance"
+    ],
+    "targetBeneficiaries": [
+     {
+      "label": "All",
+      "value": "All"
+     }
+    ]
+   },
+   "eligibilityCriteria": {
+    "eligibilityDescription": [
+     {
+      "children": [
+       {
+        "text": "Individual bank account holders of participating banks aged between 18 years (completed) and 70 years (age nearer birthday) who give their consent to join / enable auto-debit, will be enrolled into the scheme."
+       }
+      ],
+      "type": "paragraph"
+     }
+    ],
+    "eligibilityDescription_md": "Individual bank account holders of participating banks aged between 18 years (completed) and 70 years (age nearer birthday) who give their consent to join / enable auto-debit, will be enrolled into the scheme.\n"
+   },
+   "schemeContent": {
+    "benefitTypes": {
+     "label": "Cash",
+     "value": "Cash"
+    },
+    "benefits": [
+     {
+      "children": [
+       {
+        "children": [
+         {
+          "text": "On Death- the Nominee shall get Rs. 2 Lakhs."
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": "Total and irrecoverable loss of both eyes or loss of use of both hands or feet or loss of sight of one eye and loss of use of hand or foot-  Subscriber shall get Rs. 2 Lakhs."
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": "Total and irrecoverable loss of sight of one eye or loss of use of one hand or foot –subscriber shall get Rs. 1 Lakh."
+         }
+        ],
+        "type": "list_item"
+       }
+      ],
+      "type": "ol_list"
+     }
+    ],
+    "benefits_md": "\n1. On Death- the Nominee shall get Rs. 2 Lakhs.\n1. Total and irrecoverable loss of both eyes or loss of use of both hands or feet or loss of sight of one eye and loss of use of hand or foot-  Subscriber shall get Rs. 2 Lakhs.\n1. Total and irrecoverable loss of sight of one eye or loss of use of one hand or foot –subscriber shall get Rs. 1 Lakh.\n\n",
+    "briefDescription": "An Accident Insurance Scheme offering accidental death and disability cover for death or disability on account of an accident.",
+    "detailedDescription": [
+     {
+      "children": [
+       {
+        "text": "An Accident Insurance Scheme offering accidental death and disability cover for death or disability on account of an accident."
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "bold": true,
+        "text": "Premium:"
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": "Rs.20/- per annum per member. The premium will be deducted from the account holder’s bank / Post office account through ‘auto debit’ facility on or before 1st June of each annual coverage period under the scheme. "
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "bold": true,
+        "text": "Coverage Duration:"
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": "Coverage under PMJJBY is valid for one year from 1st June to 31st May on payment of annual premium."
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "bold": true,
+        "text": "Accident cover assurance termination:"
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": "The accident cover of the member shall terminate / be restricted accordingly on any of the following events:"
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": "•\tOn attaining age 70 years (age nearer birth day)."
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": "•\tClosure of account with the Bank or insufficiency of balance to keep the insurance in force."
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": "In case a member is covered under PMSBY through more than one account and premium is received by insurance company inadvertently, insurance cover will be restricted to Rs. 2 lakh."
+       }
+      ],
+      "type": "paragraph"
+     }
+    ],
+    "detailedDescription_md": "An Accident Insurance Scheme offering accidental death and disability cover for death or disability on account of an accident.\n**Premium:**\nRs.20/- per annum per member. The premium will be deducted from the account holder’s bank / Post office account through ‘auto debit’ facility on or before 1st June of each annual coverage period under the scheme. \n**Coverage Duration:**\nCoverage under PMJJBY is valid for one year from 1st June to 31st May on payment of annual premium.\n**Accident cover assurance termination:**\nThe accident cover of the member shall terminate / be restricted accordingly on any of the following events:\n•\tOn attaining age 70 years (age nearer birth day).\n•\tClosure of account with the Bank or insufficiency of balance to keep the insurance in force.\nIn case a member is covered under PMSBY through more than one account and premium is received by insurance company inadvertently, insurance cover will be restricted to Rs. 2 lakh.\n",
+    "exclusions": [
+     {
+      "children": [
+       {
+        "text": ""
+       }
+      ],
+      "type": "paragraph"
+     }
+    ],
+    "exclusions_md": "<br>\n\n",
+    "references": [
+     {
+      "title": "Scheme Guidelines",
+      "url": "https://jansuraksha.gov.in/Files/PMSBY/English/Rules.pdf "
+     }
+    ],
+    "schemeImageUrl": " https://www.jansuraksha.gov.in/PICS/mdM_LOG.png  "
+   },
+   "schemeDefinitions": []
+  },
+  "slug": "pmsby"
+ },
+ "documents": {
+  "data": {
+   "_id": "6290a65ce65001fa5dfa9955",
+   "en": {
+    "documentsRequired_md": "\n \n\n",
+    "documents_required": [
+     {
+      "children": [
+       {
+        "children": [
+         {
+          "text": " "
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "type": "ul_list"
+     }
+    ]
+   },
+   "schemeId": "6290a249e65001fa5dfa97b0"
+  },
+  "error": "{}",
+  "errorDescription": "",
+  "status": "Success",
+  "statusCode": 200
+ },
+ "faqs": {
+  "data": {
+   "_id": "6290a83fe65001fa5dfa9a27",
+   "en": {
+    "faqs": [
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": "No. \n"
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": "No. \n\n",
+      "question": "Is There Any Provision For Reimbursement of Hospitalization expenses following accident Resulting In Death Or Disablement? "
+     },
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": "In case of death of the Account holder who enrolled in the scheme, claim can be filed by the nominee/appointee as per the enrolment form or by the legal heir/s in case there is no nomination made by the subscriber bank account holder. \n\n"
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": "In case of death of the Account holder who enrolled in the scheme, claim can be filed by the nominee/appointee as per the enrolment form or by the legal heir/s in case there is no nomination made by the subscriber bank account holder. \n\n\n",
+      "question": "Who Can Claim Insurance Benefit In Case Of Death Of The Bank Account Holder Who Gave The Enrolment Form? "
+     },
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": "Disability Claim will be credited in the bank account of the insured bank account holder. Death claims will be remitted to the bank account of the nominee / legal heir(s).\n"
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": "Disability Claim will be credited in the bank account of the insured bank account holder. Death claims will be remitted to the bank account of the nominee / legal heir(s).\n\n",
+      "question": "What Is The Mode Of Payment Of The Claim Amount? "
+     },
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": "No. \n"
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": "No. \n\n",
+      "question": "Will The Family Get Insurance Benefit If The Account Holder Commits Suicide? "
+     },
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": "In case of incidents like Road, Rail and similar vehicular accidents, drowning, death involving any crime etc., the accident should be reported to police. In case of incidents like snake bite, fall from tree etc., the cause should be supported by immediate hospital record.\n"
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": "In case of incidents like Road, Rail and similar vehicular accidents, drowning, death involving any crime etc., the accident should be reported to police. In case of incidents like snake bite, fall from tree etc., the cause should be supported by immediate hospital record.\n\n",
+      "question": "Is It Necessary To Report Accidents To Police And Obtain FIR For Claiming Benefits Under The Policy?"
+     },
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": "PMSBY covers deaths confirmed by documentary evidence to have been caused by accident.\n\n"
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": "PMSBY covers deaths confirmed by documentary evidence to have been caused by accident.\n\n\n",
+      "question": "If The Insured Is Missing And Death Is Not Confirmed, Will The Legal Heirs Get Benefit Of Insurance?"
+     },
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": "No benefit will be payable."
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": "No benefit will be payable.\n",
+      "question": "What Benefit Will Be Payable if A Person Suffers Partial Disability Without Irrecoverable Loss Of Sight Of One Eye Or Loss Of Use Of One Hand Or Foot?"
+     },
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": "No. The insured/ Nominee shall be eligible for one claim only. \n"
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": "No. The insured/ Nominee shall be eligible for one claim only. \n\n",
+      "question": "Can An Account Holder Get Claim From More Than One Bank Where He Has Enrolled And Premium Has Been Debited?"
+     },
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": " No. In case of multiple bank accounts held by an individual in one or different banks, the person would be eligible to join the scheme through one bank/post office account only."
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": " No. In case of multiple bank accounts held by an individual in one or different banks, the person would be eligible to join the scheme through one bank/post office account only.\n",
+      "question": "Can A Individual Join PMSBY From Multiple Bank Accounts?"
+     },
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": "Individuals aged between 18 years (completed) and 70 years (age nearer birthday) are eligible for this scheme.\n"
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": "Individuals aged between 18 years (completed) and 70 years (age nearer birthday) are eligible for this scheme.\n\n",
+      "question": "What Is The Minimum And Maximum Age Limit For Entry Into This Scheme? "
+     },
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": "The premium will be deducted from the account holder’s bank / Post office account through ‘auto debit’ as per the consent given on enrolment."
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": "The premium will be deducted from the account holder's bank / Post office account through 'auto debit' as per the consent given on enrolment.\n",
+      "question": "How Will The Premium Be Paid?"
+     },
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": "Yes, on payment of premium through auto-debit. New eligible entrants in future years can also join accordingly."
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": "Yes, on payment of premium through auto-debit. New eligible entrants in future years can also join accordingly.\n",
+      "question": "Can Eligible Individuals Who Fail To Join The Scheme In The Initial Year Join In Subsequent Years? "
+     },
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": "Individuals who exit the scheme at any point may re-join the scheme in future years by paying the annual premium, subject to conditions that may be laid down.\n\n"
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": "Individuals who exit the scheme at any point may re-join the scheme in future years by paying the annual premium, subject to conditions that may be laid down.\n\n\n",
+      "question": "Can Individuals Who Leave The Scheme Rejoin?"
+     },
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": "Yes. \n"
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": "Yes. \n\n",
+      "question": "Will This Cover Be In Addition To Cover Under Any Other Insurance Scheme The Subscriber May Be Covered Under?  "
+     },
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": " Natural calamities being in the nature of accidents, any death / disability (as defined under PMSBY) resulting from such natural calamities is also covered under PMSBY. While death due to suicide is not covered, that from murder is covered\n"
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": " Natural calamities being in the nature of accidents, any death / disability (as defined under PMSBY) resulting from such natural calamities is also covered under PMSBY. While death due to suicide is not covered, that from murder is covered\n\n",
+      "question": "Does The PMSBY Cover Death / Disability Resulting From Natural Calamities Such As Earthquake, Flood And Other Convulsions Of Nature? What about coverage of suicide / murder?"
+     },
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": "In case of a joint account, all holders of the said account can join the scheme provided they satisfy its eligibility criteria and pay the premium at the rate of Rs.20 per person, per annum through auto-debit."
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": "In case of a joint account, all holders of the said account can join the scheme provided they satisfy its eligibility criteria and pay the premium at the rate of Rs.20 per person, per annum through auto-debit.\n",
+      "question": "Can All Holders Of A Joint Bank Account Join The Scheme Through The Said Account? "
+     },
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": "All bank/post office account holders other than institutional account holders are eligible for subscribing to PMSBY scheme.\n\n"
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": "All bank/post office account holders other than institutional account holders are eligible for subscribing to PMSBY scheme.\n\n\n",
+      "question": "Which Bank Accounts Are Eligible For Subscribing To PMSBY? "
+     },
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": " Any NRI having an eligible bank account with a bank branch located in India is eligible for purchase of PMSBY cover through this account subject to fulfilment of the terms and conditions relating to the scheme. However, in cases of a claim , the claim benefit will be paid to the beneficiary/ nominee only in Indian currency.\n"
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": " Any NRI having an eligible bank account with a bank branch located in India is eligible for purchase of PMSBY cover through this account subject to fulfilment of the terms and conditions relating to the scheme. However, in cases of a claim , the claim benefit will be paid to the beneficiary/ nominee only in Indian currency.\n\n",
+      "question": "Are NRIs Eligible For Coverage Under PMSBY?"
+     }
+    ]
+   },
+   "schemeId": "6290a249e65001fa5dfa97b0"
+  },
+  "error": "{}",
+  "errorDescription": "",
+  "status": "Success",
+  "statusCode": 200
+ }
+}

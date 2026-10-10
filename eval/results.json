@@ -1,0 +1,506 @@
+{
+ "rules": {
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "rows": [
+   {
+    "persona": "Ramesh",
+    "expected": 6,
+    "rules_tp": 6,
+    "rules_fp": 0,
+    "rules_fn": 0
+   },
+   {
+    "persona": "Sunita",
+    "expected": 5,
+    "rules_tp": 5,
+    "rules_fp": 0,
+    "rules_fn": 0
+   },
+   {
+    "persona": "Arjun",
+    "expected": 7,
+    "rules_tp": 7,
+    "rules_fp": 0,
+    "rules_fn": 0
+   },
+   {
+    "persona": "Fatima",
+    "expected": 9,
+    "rules_tp": 9,
+    "rules_fp": 0,
+    "rules_fn": 0
+   },
+   {
+    "persona": "Lakshmi",
+    "expected": 9,
+    "rules_tp": 9,
+    "rules_fp": 0,
+    "rules_fn": 0
+   },
+   {
+    "persona": "Gopal",
+    "expected": 3,
+    "rules_tp": 3,
+    "rules_fp": 0,
+    "rules_fn": 0
+   },
+   {
+    "persona": "Imran",
+    "expected": 7,
+    "rules_tp": 7,
+    "rules_fp": 0,
+    "rules_fn": 0
+   },
+   {
+    "persona": "Priya",
+    "expected": 2,
+    "rules_tp": 2,
+    "rules_fp": 0,
+    "rules_fn": 0
+   },
+   {
+    "persona": "Ravi",
+    "expected": 8,
+    "rules_tp": 8,
+    "rules_fp": 0,
+    "rules_fn": 0
+   },
+   {
+    "persona": "Meena",
+    "expected": 5,
+    "rules_tp": 5,
+    "rules_fp": 0,
+    "rules_fn": 0
+   },
+   {
+    "persona": "Kavya",
+    "expected": 1,
+    "rules_tp": 1,
+    "rules_fp": 0,
+    "rules_fn": 0
+   },
+   {
+    "persona": "Sanjay",
+    "expected": 7,
+    "rules_tp": 7,
+    "rules_fp": 0,
+    "rules_fn": 0
+   }
+  ]
+ },
+ "retrieval": {
+  "n": 24,
+  "vector only": {
+   "hit@1": 0.458,
+   "hit@3": 0.708,
+   "mrr": 0.604,
+   "scheme_hit@1": 0.917
+  },
+  "hybrid (0.9 vector + 0.1 keyword)": {
+   "hit@1": 0.333,
+   "hit@3": 0.75,
+   "mrr": 0.557,
+   "scheme_hit@1": 0.958
+  },
+  "hybrid + intent boost": {
+   "hit@1": 0.458,
+   "hit@3": 0.833,
+   "mrr": 0.633,
+   "scheme_hit@1": 0.875
+  }
+ },
+ "tiles": [
+  [
+   "Rules F1",
+   "100%",
+   "P 100% · R 100%",
+   "green"
+  ],
+  [
+   "LLM alone F1",
+   "66%",
+   "P 64% · R 68% (gpt-oss-20b)",
+   "amber"
+  ],
+  [
+   "Retrieval Hit@3",
+   "83%",
+   "MRR 0.63 · 24 questions",
+   "saffron"
+  ],
+  [
+   "Agent answer time",
+   "15.3 s",
+   "verified 100%",
+   "ink"
+  ]
+ ],
+ "table": [
+  {
+   "persona": "Ramesh",
+   "expected": 6,
+   "rules_tp": 6,
+   "rules_fp": 0,
+   "rules_fn": 0,
+   "llm_tp": 5,
+   "llm_fp": 3,
+   "llm_fn": 1,
+   "llm_wrong": "APY, IGNOAPS, PM-KMY",
+   "llm_missed": "MGNREGA"
+  },
+  {
+   "persona": "Sunita",
+   "expected": 5,
+   "rules_tp": 5,
+   "rules_fp": 0,
+   "rules_fn": 0,
+   "llm_tp": 3,
+   "llm_fp": 2,
+   "llm_fn": 2,
+   "llm_wrong": "APY, IGNOAPS",
+   "llm_missed": "MGNREGA, PMSBY"
+  },
+  {
+   "persona": "Arjun",
+   "expected": 7,
+   "rules_tp": 7,
+   "rules_fp": 0,
+   "rules_fn": 0,
+   "llm_tp": 4,
+   "llm_fp": 1,
+   "llm_fn": 3,
+   "llm_wrong": "Skill Loan",
+   "llm_missed": "APY, PMJJBY, PMSBY"
+  },
+  {
+   "persona": "Fatima",
+   "expected": 9,
+   "rules_tp": 9,
+   "rules_fp": 0,
+   "rules_fn": 0,
+   "llm_tp": 6,
+   "llm_fp": 4,
+   "llm_fn": 3,
+   "llm_wrong": "IGNDPS, IGNOAPS, IGNWPS, PM Vishwakarma",
+   "llm_missed": "PMAY-U, PMJJBY, PMSBY"
+  },
+  {
+   "persona": "Lakshmi",
+   "expected": 9,
+   "rules_tp": 9,
+   "rules_fp": 0,
+   "rules_fn": 0,
+   "llm_tp": 7,
+   "llm_fp": 4,
+   "llm_fn": 2,
+   "llm_wrong": "HMDG, Nikshay Poshan, PMAY-U, PMJDY",
+   "llm_missed": "APY, MGNREGA"
+  },
+  {
+   "persona": "Gopal",
+   "expected": 3,
+   "rules_tp": 3,
+   "rules_fp": 0,
+   "rules_fn": 0,
+   "llm_tp": 2,
+   "llm_fp": 3,
+   "llm_fn": 1,
+   "llm_wrong": "APY, HMDG, PMJJBY",
+   "llm_missed": "MGNREGA"
+  },
+  {
+   "persona": "Imran",
+   "expected": 7,
+   "rules_tp": 7,
+   "rules_fp": 0,
+   "rules_fn": 0,
+   "llm_tp": 5,
+   "llm_fp": 3,
+   "llm_fn": 2,
+   "llm_wrong": "IGNOAPS, PM SVANidhi, Stand-Up India",
+   "llm_missed": "PMJJBY, PMSBY"
+  },
+  {
+   "persona": "Priya",
+   "expected": 2,
+   "rules_tp": 2,
+   "rules_fp": 0,
+   "rules_fn": 0,
+   "llm_tp": 2,
+   "llm_fp": 0,
+   "llm_fn": 0,
+   "llm_wrong": "",
+   "llm_missed": ""
+  },
+  {
+   "persona": "Ravi",
+   "expected": 8,
+   "rules_tp": 8,
+   "rules_fp": 0,
+   "rules_fn": 0,
+   "llm_tp": 4,
+   "llm_fp": 3,
+   "llm_fn": 4,
+   "llm_wrong": "IGNOAPS, IGNWPS, Skill Loan",
+   "llm_missed": "MGNREGA, PMAY-G, PMJJBY, PMSBY"
+  },
+  {
+   "persona": "Meena",
+   "expected": 5,
+   "rules_tp": 5,
+   "rules_fp": 0,
+   "rules_fn": 0,
+   "llm_tp": 4,
+   "llm_fp": 0,
+   "llm_fn": 1,
+   "llm_wrong": "",
+   "llm_missed": "PMAY-U"
+  },
+  {
+   "persona": "Kavya",
+   "expected": 1,
+   "rules_tp": 1,
+   "rules_fp": 0,
+   "rules_fn": 0,
+   "llm_tp": 1,
+   "llm_fp": 1,
+   "llm_fn": 0,
+   "llm_wrong": "PM-USP CSSS",
+   "llm_missed": ""
+  },
+  {
+   "persona": "Sanjay",
+   "expected": 7,
+   "rules_tp": 7,
+   "rules_fp": 0,
+   "rules_fn": 0,
+   "llm_tp": 4,
+   "llm_fp": 3,
+   "llm_fn": 3,
+   "llm_wrong": "IGNOAPS, PM-KISAN, PM-KMY",
+   "llm_missed": "MGNREGA, PMJJBY, PMSBY"
+  }
+ ],
+ "baseline": {
+  "precision": 0.635,
+  "recall": 0.681,
+  "f1": 0.657,
+  "model": "groq/openai/gpt-oss-20b",
+  "avg_seconds": 0.8,
+  "rows": [
+   {
+    "persona": "Ramesh",
+    "llm_tp": 5,
+    "llm_fp": 3,
+    "llm_fn": 1,
+    "llm_wrong": [
+     "APY",
+     "IGNOAPS",
+     "PM-KMY"
+    ],
+    "llm_missed": [
+     "MGNREGA"
+    ]
+   },
+   {
+    "persona": "Sunita",
+    "llm_tp": 3,
+    "llm_fp": 2,
+    "llm_fn": 2,
+    "llm_wrong": [
+     "APY",
+     "IGNOAPS"
+    ],
+    "llm_missed": [
+     "MGNREGA",
+     "PMSBY"
+    ]
+   },
+   {
+    "persona": "Arjun",
+    "llm_tp": 4,
+    "llm_fp": 1,
+    "llm_fn": 3,
+    "llm_wrong": [
+     "Skill Loan"
+    ],
+    "llm_missed": [
+     "APY",
+     "PMJJBY",
+     "PMSBY"
+    ]
+   },
+   {
+    "persona": "Fatima",
+    "llm_tp": 6,
+    "llm_fp": 4,
+    "llm_fn": 3,
+    "llm_wrong": [
+     "IGNDPS",
+     "IGNOAPS",
+     "IGNWPS",
+     "PM Vishwakarma"
+    ],
+    "llm_missed": [
+     "PMAY-U",
+     "PMJJBY",
+     "PMSBY"
+    ]
+   },
+   {
+    "persona": "Lakshmi",
+    "llm_tp": 7,
+    "llm_fp": 4,
+    "llm_fn": 2,
+    "llm_wrong": [
+     "HMDG",
+     "Nikshay Poshan",
+     "PMAY-U",
+     "PMJDY"
+    ],
+    "llm_missed": [
+     "APY",
+     "MGNREGA"
+    ]
+   },
+   {
+    "persona": "Gopal",
+    "llm_tp": 2,
+    "llm_fp": 3,
+    "llm_fn": 1,
+    "llm_wrong": [
+     "APY",
+     "HMDG",
+     "PMJJBY"
+    ],
+    "llm_missed": [
+     "MGNREGA"
+    ]
+   },
+   {
+    "persona": "Imran",
+    "llm_tp": 5,
+    "llm_fp": 3,
+    "llm_fn": 2,
+    "llm_wrong": [
+     "IGNOAPS",
+     "PM SVANidhi",
+     "Stand-Up India"
+    ],
+    "llm_missed": [
+     "PMJJBY",
+     "PMSBY"
+    ]
+   },
+   {
+    "persona": "Priya",
+    "llm_tp": 2,
+    "llm_fp": 0,
+    "llm_fn": 0,
+    "llm_wrong": [],
+    "llm_missed": []
+   },
+   {
+    "persona": "Ravi",
+    "llm_tp": 4,
+    "llm_fp": 3,
+    "llm_fn": 4,
+    "llm_wrong": [
+     "IGNOAPS",
+     "IGNWPS",
+     "Skill Loan"
+    ],
+    "llm_missed": [
+     "MGNREGA",
+     "PMAY-G",
+     "PMJJBY",
+     "PMSBY"
+    ]
+   },
+   {
+    "persona": "Meena",
+    "llm_tp": 4,
+    "llm_fp": 0,
+    "llm_fn": 1,
+    "llm_wrong": [],
+    "llm_missed": [
+     "PMAY-U"
+    ]
+   },
+   {
+    "persona": "Kavya",
+    "llm_tp": 1,
+    "llm_fp": 1,
+    "llm_fn": 0,
+    "llm_wrong": [
+     "PM-USP CSSS"
+    ],
+    "llm_missed": []
+   },
+   {
+    "persona": "Sanjay",
+    "llm_tp": 4,
+    "llm_fp": 3,
+    "llm_fn": 3,
+    "llm_wrong": [
+     "IGNOAPS",
+     "PM-KISAN",
+     "PM-KMY"
+    ],
+    "llm_missed": [
+     "MGNREGA",
+     "PMJJBY",
+     "PMSBY"
+    ]
+   }
+  ]
+ },
+ "agent": {
+  "rows": [
+   {
+    "persona": "Ramesh",
+    "seconds": 2.0,
+    "model": "gpt-oss-20b",
+    "retries": 0,
+    "verified": true,
+    "citations": 6,
+    "fitting_mentioned": "6/6",
+    "non_fitting_mentioned": []
+   },
+   {
+    "persona": "Sunita",
+    "seconds": 52.5,
+    "model": "gpt-oss-20b",
+    "retries": 0,
+    "verified": true,
+    "citations": 5,
+    "fitting_mentioned": "5/5",
+    "non_fitting_mentioned": []
+   },
+   {
+    "persona": "Arjun",
+    "seconds": 1.7,
+    "model": "gpt-oss-20b",
+    "retries": 0,
+    "verified": true,
+    "citations": 7,
+    "fitting_mentioned": "7/7",
+    "non_fitting_mentioned": []
+   },
+   {
+    "persona": "Fatima",
+    "seconds": 4.9,
+    "model": "gpt-oss-20b",
+    "retries": 0,
+    "verified": true,
+    "citations": 9,
+    "fitting_mentioned": "9/9",
+    "non_fitting_mentioned": []
+   }
+  ],
+  "avg_seconds": 15.3,
+  "verified_rate": 1.0
+ }
+}

@@ -1,0 +1,723 @@
+{
+ "scheme": {
+  "_id": "6295abe3b958ab1c5e80e1f1",
+  "en": {
+   "applicationProcess": [
+    {
+     "mode": "Online",
+     "process": [
+      {
+       "children": [
+        {
+         "text": "Interested candidates need to register on the Vidya Kaushal portal "
+        }
+       ],
+       "type": "heading_four"
+      },
+      {
+       "children": [
+        {
+         "text": ""
+        }
+       ],
+       "type": "paragraph"
+      },
+      {
+       "children": [
+        {
+         "children": [
+          {
+           "text": "Documents required– including, but not limited to proof of identity, proof of address, proof of income (of self or guardian, if available)"
+          }
+         ],
+         "type": "list_item"
+        },
+        {
+         "children": [
+          {
+           "text": "Post successful registration, candidate can select their preferred sector/ role/ centre"
+          }
+         ],
+         "type": "list_item"
+        },
+        {
+         "children": [
+          {
+           "text": "Visit the centre of your choice for counselling"
+          }
+         ],
+         "type": "list_item"
+        },
+        {
+         "children": [
+          {
+           "text": "Raise loan request through the centre, if required"
+          }
+         ],
+         "type": "list_item"
+        },
+        {
+         "children": [
+          {
+           "text": "Evaluate and accept/ reject loan offers based on preference"
+          }
+         ],
+         "type": "list_item"
+        },
+        {
+         "children": [
+          {
+           "text": "Disbursement of the loan directly to partner/ centre post-confirmation"
+          }
+         ],
+         "type": "list_item"
+        }
+       ],
+       "type": "ol_list"
+      },
+      {
+       "children": [
+        {
+         "text": ""
+        }
+       ],
+       "type": "paragraph"
+      }
+     ],
+     "url": "https://www.vidyakaushal.com/Vidyakaushal/registerStudent"
+    }
+   ],
+   "basicDetails": {
+    "dbtScheme": false,
+    "implementingAgency": null,
+    "level": {
+     "label": "Central",
+     "value": "central"
+    },
+    "nodalDepartmentName": null,
+    "nodalMinistryName": {
+     "label": "Ministry Of Skill Development And Entrepreneurship",
+     "value": 1160
+    },
+    "otherDepartmentNames": null,
+    "otherMinistryName": null,
+    "schemeCategory": [
+     {
+      "label": "Skills & Employment",
+      "subcategories": [
+       "Career information",
+       "Employment services and jobs",
+       "Information for employers",
+       "Retirement",
+       "Working conditions, health and safety",
+       "Loan",
+       "Entrepreneurship development",
+       "Training and Skill Up-gradation",
+       "Academic qualification Up-Gradation",
+       "Apprenticeship",
+       "Placement assistance",
+       "Rehabilitation",
+       "Voctional education",
+       "Welfare measures"
+      ],
+      "value": "628ce85cd6d1a3bde4685304"
+     },
+     {
+      "label": "Banking,Financial Services and Insurance",
+      "subcategories": [
+       "Banking and money",
+       "Financial regulation",
+       "Investment",
+       "Personal finance",
+       "Superannuation",
+       "Court claims, debt and bankruptcy",
+       "Pension",
+       "Insurance",
+       "Loan",
+       "Annuity"
+      ],
+      "value": "628ce7f6d6d1a3bde46852d0"
+     }
+    ],
+    "schemeCloseDate": null,
+    "schemeFor": "Individual",
+    "schemeName": "Skill Loan Scheme",
+    "schemeOpenDate": "2015-07-15",
+    "schemeShortTitle": "SL",
+    "schemeSubCategory": [
+     {
+      "label": "Loan",
+      "value": "Loan"
+     },
+     {
+      "label": "Training and Skill Up-gradation",
+      "value": "Training and Skill Up-gradation"
+     }
+    ],
+    "tags": [
+     "Skill Development",
+     "Student",
+     "Industrial Training Institutes (ITIs)",
+     "Polytechnics"
+    ],
+    "targetBeneficiaries": [
+     {
+      "label": "Individual",
+      "value": "individual"
+     }
+    ]
+   },
+   "eligibilityCriteria": {
+    "eligibilityDescription": [
+     {
+      "children": [
+       {
+        "text": "A student who has secured admission in a course run by Industrial Training Institutes (ITIs), Polytechnics or in a school recognized by Central or State education Boards or in a college affiliated to a recognized university, training partners affiliated to National Skill Development Corporation (NSDC) / Sector Skill Councils, State Skill Mission, State Skill Corporation"
+       }
+      ],
+      "type": "paragraph"
+     }
+    ],
+    "eligibilityDescription_md": "A student who has secured admission in a course run by Industrial Training Institutes (ITIs), Polytechnics or in a school recognized by Central or State education Boards or in a college affiliated to a recognized university, training partners affiliated to National Skill Development Corporation (NSDC) / Sector Skill Councils, State Skill Mission, State Skill Corporation\n"
+   },
+   "schemeContent": {
+    "benefitTypes": {
+     "label": "Cash",
+     "value": "Cash"
+    },
+    "benefits": [
+     {
+      "children": [
+       {
+        "text": "Courses "
+       }
+      ],
+      "type": "heading_four"
+     },
+     {
+      "children": [
+       {
+        "text": "Aligned to NSQF"
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": ""
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": "Quantum of Finance"
+       }
+      ],
+      "type": "heading_four"
+     },
+     {
+      "children": [
+       {
+        "text": " Rs 5000-1,50,000"
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": ""
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": "Duration of Course "
+       }
+      ],
+      "type": "heading_four"
+     },
+     {
+      "children": [
+       {
+        "text": "No minimum duration"
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": ""
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": "Rate of Interest "
+       }
+      ],
+      "type": "heading_four"
+     },
+     {
+      "children": [
+       {
+        "text": "Base rate (MCLR) + an add on typically up to 1.5%"
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": ""
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": "Moratorium "
+       }
+      ],
+      "type": "heading_four"
+     },
+     {
+      "children": [
+       {
+        "text": "Duration of the course"
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": ""
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": "Repayment Period "
+       }
+      ],
+      "type": "heading_four"
+     },
+     {
+      "children": [
+       {
+        "text": "Between 3 to 7 years basis the amount of loan"
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": ""
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": "Loan"
+       }
+      ],
+      "type": "heading_four"
+     },
+     {
+      "children": [
+       {
+        "text": "Loans upto ₹ 50,000 - Upto 3 years"
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": "Loans between ₹ 50,000 to ₹ 1 lakh - Upto 5 years"
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": "Loans above ₹ 1 lakh - Upto 7 years"
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": ""
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": "Coverage "
+       }
+      ],
+      "type": "heading_four"
+     },
+     {
+      "children": [
+       {
+        "text": "Course Fees (directly to the training institute) along with expenses towards completion of the course (assessment, examination, study material, etc.)"
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": "The scheme does not allow for a collateral to be charged from the beneficiary."
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": ""
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": "MSDE, through a November 2015 notification, brought into force the Credit Guarantee Fund for Skill Development (CGFSSD) for all skill loans sanctioned on or after 15 July 2015, to be administered by the National Credit Guarantee Trust Company (NCGTC)."
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": ""
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": "Banks can apply to the NCGTC for credit guarantee against defaults and NCGTC will provide this guarantee at nominal fee which shall not exceed 0.5% of the amount outstanding. The guarantee cover will be for a maximum of 75% of the outstanding loan amount (including interest, if any)."
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": ""
+       }
+      ],
+      "type": "paragraph"
+     }
+    ],
+    "briefDescription": "A Skill loan scheme by Ministry of Skill Development and Entrepreneurship to provide loan upto Rs. 1,50,000 to student who has secured admission in a course run by Industrial Training Institutes (ITIs), Polytechnics or in a school recognized by Central or State education Boards or in a college affil",
+    "detailedDescription": [
+     {
+      "children": [
+       {
+        "text": "The Skill Loan Scheme was launched in July 2015 to provide institutional credit to individuals for skill development courses aligned to National Occupations Standards and Qualification Packs and leading to a certificate/diploma/degree by training institutes as per National Skill Qualification Framework (NSQF)."
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": ""
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": "This scheme is applicable to all member banks of the Indian Banks’ Association (IBA) and any other banks and financial institutions as may be advised by the RBI. The scheme provides broad guidelines to the banks for operationalizing the skilling loan scheme."
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": ""
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": ""
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": "Salient features of the guidelines to banks for operationalizing the scheme:"
+       }
+      ],
+      "type": "heading_four"
+     },
+     {
+      "children": [
+       {
+        "children": [
+         {
+          "text": "Eligibility –Any individual who has secured admission in a course run by Industrial Training Institutes (ITIs), Polytechnics or in a school recognized by Central or State education Boards or in a college affiliated to a recognized university, training partners affiliated to National Skill Development Corporation (NSDC) / Sector Skill Councils, State Skill Mission, State Skill Corporation"
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": "Courses – Aligned to NSQF"
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": "Quantum of Finance – Rs 5000-1,50,000"
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": "Duration of Course – No minimum duration"
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": "Rate of Interest – Base rate (MCLR) + an add on typically up to 1.5%"
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": "Moratorium – Duration of the course"
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": "Repayment Period – Between 3 to 7 years basis the amount of loan"
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": "Loans upto ₹ 50,000 - Upto 3 years"
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": "Loans between ₹ 50,000 to ₹ 1 lakh - Upto 5 years"
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": "Loans above ₹ 1 lakh - Upto 7 years"
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": "Coverage – Course Fees (directly to the training institute) along with expenses towards completion of the course (assessment, examination, study material, etc.)"
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": "The scheme does not allow for a collateral to be charged from the beneficiary."
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": "MSDE, through a November 2015 notification, brought into force the Credit Guarantee Fund for Skill Development (CGFSSD) for all skill loans sanctioned on or after 15 July 2015, to be administered by the National Credit Guarantee Trust Company (NCGTC)."
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": "Banks can apply to the NCGTC for credit guarantee against defaults and NCGTC will provide this guarantee at nominal fee which shall not exceed 0.5% of the amount outstanding. The guarantee cover will be for a maximum of 75% of the outstanding loan amount (including interest, if any)."
+         }
+        ],
+        "type": "list_item"
+       },
+       {
+        "children": [
+         {
+          "text": " As per the information provided by Indian Bank’s Association (IBA) in respect of 21 Banks, a total skill loan of Rs 29.06 crore was disbursed during the year 2018-19 (as on September 2018)."
+         }
+        ],
+        "type": "list_item"
+       }
+      ],
+      "type": "ol_list"
+     }
+    ],
+    "detailedDescription_md": "The Skill Loan Scheme was launched in July 2015 to provide institutional credit to individuals for skill development courses aligned to National Occupations Standards and Qualification Packs and leading to a certificate/diploma/degree by training institutes as per National Skill Qualification Framework (NSQF).\n<br>\n\nThis scheme is applicable to all member banks of the Indian Banks’ Association (IBA) and any other banks and financial institutions as may be advised by the RBI. The scheme provides broad guidelines to the banks for operationalizing the skilling loan scheme.\n<br>\n\n<br>\n\n#### Salient features of the guidelines to banks for operationalizing the scheme:\n\n1. Eligibility –Any individual who has secured admission in a course run by Industrial Training Institutes (ITIs), Polytechnics or in a school recognized by Central or State education Boards or in a college affiliated to a recognized university, training partners affiliated to National Skill Development Corporation (NSDC) / Sector Skill Councils, State Skill Mission, State Skill Corporation\n1. Courses – Aligned to NSQF\n1. Quantum of Finance – Rs 5000-1,50,000\n1. Duration of Course – No minimum duration\n1. Rate of Interest – Base rate (MCLR) + an add on typically up to 1.5%\n1. Moratorium – Duration of the course\n1. Repayment Period – Between 3 to 7 years basis the amount of loan\n1. Loans upto ₹ 50,000 - Upto 3 years\n1. Loans between ₹ 50,000 to ₹ 1 lakh - Upto 5 years\n1. Loans above ₹ 1 lakh - Upto 7 years\n1. Coverage – Course Fees (directly to the training institute) along with expenses towards completion of the course (assessment, examination, study material, etc.)\n1. The scheme does not allow for a collateral to be charged from the beneficiary.\n1. MSDE, through a November 2015 notification, brought into force the Credit Guarantee Fund for Skill Development (CGFSSD) for all skill loans sanctioned on or after 15 July 2015, to be administered by the National Credit Guarantee Trust Company (NCGTC).\n1. Banks can apply to the NCGTC for credit guarantee against defaults and NCGTC will provide this guarantee at nominal fee which shall not exceed 0.5% of the amount outstanding. The guarantee cover will be for a maximum of 75% of the outstanding loan amount (including interest, if any).\n1.  As per the information provided by Indian Bank’s Association (IBA) in respect of 21 Banks, a total skill loan of Rs 29.06 crore was disbursed during the year 2018-19 (as on September 2018).\n\n",
+    "exclusions": [
+     {
+      "children": [
+       {
+        "text": ""
+       }
+      ],
+      "type": "paragraph"
+     }
+    ],
+    "references": [
+     {
+      "title": "Scheme Guidelines",
+      "url": "https://msde.gov.in/en/schemes-initiatives/Other-Schemes-and-Initiatives/Skill-Loan-Scheme "
+     }
+    ],
+    "schemeImageUrl": ""
+   },
+   "schemeDefinitions": []
+  },
+  "slug": "sl"
+ },
+ "documents": {
+  "data": {
+   "_id": "6295b64212d04da98a55a1be",
+   "en": {
+    "documents_required": [
+     {
+      "children": [
+       {
+        "text": "Documents required– including, but not limited to proof of identity, proof of address, proof of income (of self or guardian, if available)"
+       }
+      ],
+      "type": "paragraph"
+     },
+     {
+      "children": [
+       {
+        "text": ""
+       }
+      ],
+      "type": "paragraph"
+     }
+    ]
+   },
+   "schemeId": "6295abe3b958ab1c5e80e1f1"
+  },
+  "error": "{}",
+  "errorDescription": "",
+  "status": "Success",
+  "statusCode": 200
+ },
+ "faqs": {
+  "data": {
+   "_id": "6295b69012d04da98a55a1f5",
+   "en": {
+    "faqs": [
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": "Student satisfying the eligibility can avail the loan amount upto Rs. 1,50,000 ."
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": "Student satisfying the eligibility can avail the loan amount upto Rs. 1,50,000 .\n",
+      "question": "What is the maximum loan one can avail in the scheme?"
+     },
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": "Marginal Cost of Lending Rate (MCLR) is the minimum lending rate below which a bank is not permitted to lend.It varies from bank to bank.\n"
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": "Marginal Cost of Lending Rate (MCLR) is the minimum lending rate below which a bank is not permitted to lend.It varies from bank to bank.\n\n",
+      "question": "What is MCLR under rate of interest?"
+     },
+     {
+      "answer": [
+       {
+        "children": [
+         {
+          "text": "A moratorium period refers to a particular period of a loan tenure during which the borrower does not have repay anything. It can be described as a waiting period before the borrower will have to start paying the equated monthly installments (EMIs) for his or her loan.\n\n"
+         }
+        ],
+        "type": "paragraph"
+       }
+      ],
+      "answer_md": "A moratorium period refers to a particular period of a loan tenure during which the borrower does not have repay anything. It can be described as a waiting period before the borrower will have to start paying the equated monthly installments (EMIs) for his or her loan.\n\n\n",
+      "question": "What is moratorium period?"
+     }
+    ]
+   },
+   "schemeId": "6295abe3b958ab1c5e80e1f1"
+  },
+  "error": "{}",
+  "errorDescription": "",
+  "status": "Success",
+  "statusCode": 200
+ }
+}
